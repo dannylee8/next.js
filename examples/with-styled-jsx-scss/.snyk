@@ -578,3 +578,5 @@ patch:
         patched: '2020-06-12T19:50:24.563Z'
     - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
         patched: '2020-06-12T19:50:24.563Z'
+    - node-sass > lodash:
+        patched: '2020-06-12T20:06:45.219Z'
