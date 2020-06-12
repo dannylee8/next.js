@@ -4,14 +4,18 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "next": "latest",
-    "node-sass": "4.5.3",
+    "node-sass": "4.13.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "styled-jsx-plugin-sass": "0.2.0"
+    "styled-jsx-plugin-sass": "0.2.0",
+    "snyk": "^1.339.2"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
